@@ -1,0 +1,75 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+
+
+# ==========================================
+# Environment / Secret Files
+# ==========================================
+.env
+.env.*
+*.env
+example.env
+**/example.env
+
+# Explicitly ignore backend/frontend env files
+Backend/.env
+Backend/example.env
+Frontend/.env
+Frontend/example.env
+
+
+# ==========================================
+# Build / Production
+# ==========================================
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ==========================================
+# Local / Temporary Files
+# ==========================================
+*.local
+*.tmp
+*.temp
+.DS_Store
+
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+
+
+# ==========================================
+# Other IDEs
+# ==========================================
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# ==========================================
+# OS Files
+# ==========================================
+Thumbs.db
