@@ -1,4 +1,4 @@
-# Job Hunt — MERN Job Portal
+# AI-HireHub — MERN Job Portal
 
 A full-stack job portal where job seekers can browse and apply for jobs, and recruiters can post jobs and manage applicants. It includes **email OTP verification**, **password reset via OTP**, and **AI-powered job recommendations**.
 
